@@ -1,6 +1,6 @@
 import * as fs from "fs";
 
-const file = fs.readFileSync("./inputs.txt");
+const file = fs.readFileSync("../inputs.txt");
 const elves = file.toString().split("\n\n");
 let max = 0;
 

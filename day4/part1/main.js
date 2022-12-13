@@ -1,7 +1,7 @@
 import fs from "fs";
 import { isFullyOverlaps } from "./helpers.js";
 
-const file = fs.readFileSync("./inputs.txt");
+const file = fs.readFileSync("../inputs.txt");
 const sections = file.toString().split("\n");
 let numberOfFullyOverlappingGroups = 0;
 

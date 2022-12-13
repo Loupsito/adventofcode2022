@@ -1,7 +1,7 @@
 import fs from "fs";
 import {decodeShape, getPointsFromWinDrawOrLose, getPointsFromShape, getShapeToPlayAccordingToGuide,} from "./helpers.js";
 
-const file = fs.readFileSync("./inputs.txt");
+const file = fs.readFileSync("../inputs.txt");
 const rounds = file.toString().split("\n");
 let score = 0;
 
